@@ -2,7 +2,7 @@
     $.fn.ototypo = function(options) {
 
         var defauts = {
-        	'QuestionMark': true, 		// points d'interrogatio   	-> !
+        	'QuestionMark': true, 		// points d'interrogation   	-> !
             'ExclamationPoint': true, 	// points d'exclamation 	-> ?
             
         	'Colon': true, 				// deux-points 				-> :

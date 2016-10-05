@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Bruno test git</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="orthotype.js"></script>
+	<script type="text/javascript" src="ototypo.js"></script>
 	<style>
 		p {
 			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -16,24 +16,26 @@
 	
 </head>
 <body>
-
-	<div id="text_1">
-		<p>a :</p>
-		<p>a:" qsdds "sdb</p>
-		<p>a;bqdsdqsdsq"dqs"ds</p>
-		<p>a! </p>
-		<p>a ?:</p>
-		<p>a():</p>
-		<p>a:(({}{}{(</p>
-		<p>a ) :</p>
-		<p>a:??</p>
-	
-	</div>
-	
+		<p>
+		No has dicunt commodo dignissim, (in vel modo enim). Laudem noluisse appareat no mea? Explicari contentiones at sit. Ad vix dolor saepe dolorum. Sea: at adipisci tractatos urbanitas, congue dissentiet id has!
+		</p>
+		
+		<p>
+		Molestiae splendide at eos, fugit {libris equidem} pro ne. At mel libris vocent, est alii brute periculis cu! Ex nec tempor invidunt nominati? Vidit; tibique deterruisset quo at, cum veri indoctum vituperatoribus in! Equidem appetere convenire qui et, cibo scriptorem his cu, ex est populo bonorum eruditi. Tota liber luptatum cu eum, ea mea scaevola interesset.
+		</p>
+		
 <script>
 	$('p').ototypo({
-		'QuestionMark': true,
-		'SemiColon': false
+		'QuestionMark': true, 		// points d'interrogatio   	-> !
+        'ExclamationPoint': true, 	// points d'exclamation 	-> ?
+            
+        'Colon': true, 				// deux-points 				-> :
+        'SemiColon': true, 			// point-virgules 			-> ;
+
+        'Parenthesis': true, 		// parenthèses				-> ()
+
+        'CurlyBrace': true			// accolades				-> {}
+           
 	});		
 </script>
 </body>
