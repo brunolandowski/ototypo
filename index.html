@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Bruno test git</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="orthotype.js"></script>
+	<style>
+		p {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		span {
+			color:red;
+		}
+	</style>
+	
+</head>
+<body>
+
+	<div id="text_1">
+		<p>a :</p>
+		<p>a:" qsdds "sdb</p>
+		<p>a;bqdsdqsdsq"dqs"ds</p>
+		<p>a! </p>
+		<p>a ?:</p>
+		<p>a():</p>
+		<p>a:(({}{}{(</p>
+		<p>a ) :</p>
+		<p>a:??</p>
+	
+	</div>
+	
+<script>
+	$('p').ototypo({
+		'QuestionMark': true,
+		'SemiColon': false
+	});		
+</script>
+</body>
+</html>
