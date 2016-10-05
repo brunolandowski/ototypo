@@ -24,4 +24,4 @@ $('p').ototypo({
            
 	});		
 ```
-That's it !
+:cactus::cactus::cactus: That's it !
