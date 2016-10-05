@@ -5,12 +5,12 @@ Ototypo avoid line breaks before punctuation marks, parenthesis and curly braces
 <script type="text/javascript" src="ototypo.js"></script>
 ```
 ## Initalize
-```jQuery
+```JavaScript
 $('p').ototypo();		
 ```
 ## Setting up
-You can choose to enable/disable it with specific marks. 
-```jQuery
+You can choose to enable/disable it with specific characters. 
+```JavaScript
 $('p').ototypo({
 		
 	'QuestionMark': true,
@@ -22,3 +22,4 @@ $('p').ototypo({
            
 	});		
 ```
+That's it !
