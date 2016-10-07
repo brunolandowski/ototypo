@@ -1,5 +1,5 @@
 # Ototypo
-Ototypo avoid line breaks before punctuation marks, parenthesis and curly braces by adding narrow no-break space instead of space. Mostly usefull for French Websites.
+Ototypo avoids line breaks before punctuation marks, parenthesis and curly braces by adding narrow no-break space instead of space. Mostly usefull for French Websites.
 
 [Download](https://raw.githubusercontent.com/brunolandowski/ototypo/master/ototypo.js)
 ## Install
@@ -24,4 +24,4 @@ $('p').ototypo({
            
 	});		
 ```
-:cactus::cactus::cactus: That's it !
+:cactus::cactus::cactus: That's it&#8239;!
