@@ -59,6 +59,9 @@
                 html = html.replace(/[ ]*(\.\.\.)/g, "… ");
             }
 
+            html = html.replace(/[ ]*(\.)/g, ".");
+            html = html.replace(/[ ]*(\,)/g, ",");
+
             $(this).html(html)
         });
     };
