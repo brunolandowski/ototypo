@@ -3,7 +3,7 @@
 
         var defauts = {
         	'QuestionMark': true, 		        // points d'interrogation   	-> !
-                'ExclamationPoint': true, 	        // points d'exclamation 	-> ?
+            'ExclamationPoint': true, 	        // points d'exclamation 	-> ?
             
         	'Colon': true, 				// deux-points 			-> :
         	'SemiColon': true, 			// point-virgules 		-> ;
@@ -11,6 +11,9 @@
         	'Parenthesis': true, 		        // parenthèses			-> ()
 
         	'CurlyBrace': true, 		        // accolades			-> {}
+            'Percentage': true,          // pourcentage              -> %
+            'QuotationMarks': true,          // guillemets              -> «»
+              'Ellipsis': true          // points de suspension              -> …
            
         };
 
@@ -42,6 +45,18 @@
 
             if (parametres.CurlyBrace) {
                 html = html.replace(/[ ]*([}])/g, "\u202F$1 ").replace(/[ ]*([{])/g, " $1\u202F");
+            }
+
+            if (parametres.Percentage) {
+                 html = html.replace(/[ \u202F]*([%])/g, "\u202F$1 ");
+            }
+
+            if (parametres.QuotationMarks) {
+                html = html.replace(/[ ]*([»])/g, "\u202F$1 ").replace(/[ ]*([«])/g, " $1\u202F");
+            }
+
+             if (parametres.Ellipsis) {
+                html = html.replace(/[\...]/g, "\u202F\… ");
             }
 
             $(this).html(html)
