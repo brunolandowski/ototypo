@@ -13,7 +13,7 @@
         	'CurlyBrace': true, 		        // accolades			-> {}
             'Percentage': true,          // pourcentage              -> %
             'QuotationMarks': true,          // guillemets              -> «»
-              'Ellipsis': true          // points de suspension              -> …
+            'Ellipsis': true          // points de suspension              -> …
            
         };
 
@@ -56,7 +56,7 @@
             }
 
              if (parametres.Ellipsis) {
-                html = html.replace(/[\...]/g, "\u202F\… ");
+                html = html.replace(/[ ]*(\.\.\.)/g, "… ");
             }
 
             $(this).html(html)
