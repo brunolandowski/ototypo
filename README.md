@@ -25,6 +25,6 @@ $('p').ototypo({
     'QuotationMarks': true,
     'Ellipsis': true
            
-	});		
+});		
 ```
 :cactus::cactus::cactus: That's it&#8239;!
