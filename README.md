@@ -20,7 +20,10 @@ $('p').ototypo({
     'Colon': true,
     'SemiColon': true,
 	'Parenthesis': true,
-	'CurlyBrace': true
+	'CurlyBrace': true,
+	    'Percentage': true,      
+            'QuotationMarks': true,
+            'Ellipsis': true
            
 	});		
 ```
