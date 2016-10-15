@@ -15,15 +15,15 @@ You can choose to enable/disable it with specific characters.
 ```JavaScript
 $('p').ototypo({
 		
-	'QuestionMark': true,
-    'ExclamationPoint': true,
-    'Colon': true,
-    'SemiColon': true,
-	'Parenthesis': true,
-	'CurlyBrace': true,
-	'Percentage': true,      
-    'QuotationMarks': true,
-    'Ellipsis': true
+	QuestionMark: true,
+    ExclamationPoint: true,
+    Colon: true,
+    SemiColon: true,
+	Parenthesis: true,
+	CurlyBrace: true,
+	Percentage: true,      
+    QuotationMarks: true,
+    Ellipsis: true
            
 });		
 ```
