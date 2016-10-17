@@ -2,18 +2,18 @@
     $.fn.ototypo = function(options) {
 
         var defauts = {
-        	'QuestionMark': true, 		        // points d'interrogation   	-> !
-            'ExclamationPoint': true, 	        // points d'exclamation 	    -> ?
+        	QuestionMark: true, 		        // points d'interrogation   	-> !
+            ExclamationPoint: true, 	        // points d'exclamation 	    -> ?
             
-        	'Colon': true, 				        // deux-points 			        -> :
-        	'SemiColon': true, 			        // point-virgules 		        -> ;
+        	Colon: true, 				        // deux-points 			        -> :
+        	SemiColon: true, 			        // point-virgules 		        -> ;
 
-        	'Parenthesis': true, 		        // parenthèses			        -> ()
+        	Parenthesis: true, 		        // parenthèses			        -> ()
 
-        	'CurlyBrace': true, 		        // accolades			        -> {}
-            'Percentage': true,                 // pourcentage                  -> %
-            'QuotationMarks': true,             // guillemets                   -> «»
-            'Ellipsis': true                    // points de suspension         -> …
+        	CurlyBrace: true, 		        // accolades			        -> {}
+            Percentage: true,                 // pourcentage                  -> %
+            QuotationMarks: true,             // guillemets                   -> «»
+            Ellipsis: true                    // points de suspension         -> …
            
         };
 
